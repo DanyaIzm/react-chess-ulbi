@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Arial';
+  user-select: none;
 }
 
 body {
@@ -53,4 +55,21 @@ body {
   width: 12px;
   border-radius: 50%;
   background-color: #22c022;
+}
+
+.lost {
+  height: calc(50vh - 60px);
+  padding: 30px;
+  margin-left: 50px;
+  background-color: lightgrey;
+}
+
+.lost-figure {
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.lost-figure img {
+  margin-left: 10px;   
 }
